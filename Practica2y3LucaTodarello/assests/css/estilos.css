@@ -1,0 +1,92 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: center;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+body {
+    padding-top: 80px;
+}
+.whatsapp-fijo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-fijo img {
+    width: 60px;
+    height: 60px;
+}
+table tr:nth-child(odd) {
+    background-color: #EAF5F4;
+}
+
+table tr:nth-child(even) {
+    background-color: white;
+}
+table tr:first-child {
+    background-color: #168A91;
+}
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: #168A91;
+}
+
+a:active {
+    color: red;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="submit"] {
+    background-color: #168A91;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+fieldset {
+    padding: 15px;
+}
